@@ -1,0 +1,28 @@
+.header{
+    background-color: var(--secondary-Very-light-grey);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 64px;
+}
+
+nav{
+    font-size: 12px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header__nav--link:active {
+    color: var(--primary-cyan);
+}
+
+
+nav a+a{
+    padding-left: 32px;
+}

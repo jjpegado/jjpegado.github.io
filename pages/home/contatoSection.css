@@ -1,0 +1,42 @@
+.section__container {
+    margin-top: 55px;
+    height: 84px;
+    padding: 16px;
+}
+
+.section__contato {
+    display: flex;
+    gap: 570px;
+    justify-content: space-around;
+    padding-bottom: 36px;
+}
+
+.section__contato--text {
+    width: 387px;
+    padding-left: 16px;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.357px;
+}
+
+.section__contato--buton {
+    width: 168px;
+    height: 48px;
+    border: 1px solid var(--primary-Grayish-dark-blue);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

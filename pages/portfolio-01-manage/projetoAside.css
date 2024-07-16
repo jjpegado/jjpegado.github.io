@@ -1,0 +1,77 @@
+.baner__manage {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    gap: 35px;
+    background-color: var(--secondary-Very-light-grey);
+    margin-top: 80px;
+}
+
+.baner__manage--description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid var(--primary-Grayish-dark-blue);
+    border-bottom: 1px solid var(--primary-Grayish-dark-blue);
+    
+    height: 500px;
+    padding: 80px 0; 
+}
+
+.baner__manage--title {
+    width: 430px;
+    padding-bottom: 16px;
+    color: var(--primary-Grayish-dark-blue);
+
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.baner__secondary--paragrafo {
+    width: 430px;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Public Sans";
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 42px;
+}
+
+.baner__paragrafo--secondary{
+    width: 350px;
+    color: var(--primary-cyan);
+    position: relative;
+    right: 40px;
+    padding-bottom: 8px;
+
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+}
+
+.paragrafo--tertiary{
+    padding-bottom: 22px;
+}
+
+.baner__secondary--buton {
+    width: 204px;
+    height: 48px;
+    position: relative;
+    right: 112px;
+    border: 1px solid var(--primary-Grayish-dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Public Sans";
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+

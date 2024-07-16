@@ -1,0 +1,10 @@
+@import url(../../css/global.css);
+@import url(../../css/reset.css);
+@import url(../../css/variaveis.css);
+@import url(../home/header.css);
+@import url(../portfolio-01-manage/heroSection.css);
+@import url(../portfolio-01-manage/projetoAside.css);
+@import url(../portfolio-01-manage/mainSectiom.css);
+@import url(../portfolio-01-manage/linksSection.css);
+@import url(../home/contatoSection.css);
+@import url(../home/footer.css);

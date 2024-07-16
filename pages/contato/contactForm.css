@@ -1,0 +1,86 @@
+.contact__form--main {
+    display: flex;
+    height: 326px;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contact__form--primary{
+    display: flex;
+    justify-content: center;
+    gap: 126px;
+}
+
+.form--tilter{
+    width: 350px;
+    /* color: #33323D; */
+
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.container__form{
+    width: 635px;
+    height: 426px;
+    gap: 32px;
+    /* color: black; */
+}
+
+.container__form--li{
+    display: flex;
+    width: 635px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.container__form__nome--name{
+    width: 635px;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 230.769% */
+    opacity: 0.8;
+}
+
+.container__form__label {
+    width: 635px;
+    height: 48px;
+    background: rgba(51, 50, 61, 0.1);
+    border: none;
+    
+}
+
+.container__form__Mensagem{
+    width: 635px;
+    height: 96px;
+    flex-shrink: 0;
+    background: rgba(51, 50, 61, 0.1);
+    border: none;
+    margin-bottom: 32px;
+}
+
+.container__form--button{
+    width: 200px;
+    height: 48px;
+    color: #fff;
+    background: #203A4C;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+

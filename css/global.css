@@ -1,0 +1,16 @@
+body, 
+button, 
+input, 
+select, 
+textarea{
+    font-family: "Ibarra Real Nova", "Public Sans";
+    font-size: 20px;
+    background-color: var(--secondary-Very-light-grey);
+}
+
+.conntainer {
+    width: 100%;
+    max-width: 1240px;
+    padding: 20px;
+    margin: auto;
+}

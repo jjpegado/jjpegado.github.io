@@ -1,0 +1,60 @@
+.main__section {
+    width: 635px;
+    height: 1192px;
+    margin-bottom: 50px;
+}
+
+.main__section--title {
+    width: 350px;
+    color: var(--primary-Grayish-dark-blue);
+    padding-bottom: 28px;
+    font-family: "Ibarra Real Nova";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -0.286px;
+}
+
+.main__section--paragrafo {
+    width: 635px;
+    color: var(--primary-Grayish-dark-blue);
+    padding-bottom: 40px;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 200% */
+}
+
+.main__section--title--secondary{
+    width: 350px;
+    color: var(--primary-Grayish-dark-blue);
+    padding-bottom: 28px;
+    font-family: "Ibarra Real Nova";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -0.286px;
+}
+
+.main__section__banners{
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+}
+
+.main__section__banner--primary{
+    width: 635px;
+    height: 400px;
+    background: url(../../assets/portfolio/manage/detalhe1.png) lightgray 0px 0px / 100% 100% no-repeat;
+    box-shadow: 0px 2px 46px 0px rgba(26, 8, 4, 0.1);
+}
+
+.main__section__banner--secondary{
+    width: 635px;
+    height: 400px;
+    background: url(../../assets/portfolio/manage/detalhe2.png) lightgray 0px 0px / 100% 100% no-repeat;
+    box-shadow: 0px 2px 46px 0px rgba(26, 8, 4, 0.1);
+}

@@ -1,0 +1,39 @@
+.main__contact{
+    display: flex;
+    height: 326px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.main__contact--tilter{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--primary-Grayish-dark-blue);
+    border-bottom: 1px solid var(--primary-Grayish-dark-blue);
+    height: 372px;
+    padding: 70px 0;
+    gap: 125px;
+}
+
+.contact--tilter{
+    width: 350px;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Ibarra Real Nova"; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700; 
+    line-height: 42px;
+    letter-spacing: -0.357px;
+
+}
+
+.contact--paragraph{
+    width: 635px;
+    color: var(--primary-Grayish-dark-blue);
+
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}

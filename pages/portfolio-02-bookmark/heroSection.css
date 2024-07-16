@@ -1,0 +1,68 @@
+.baner__primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    background-color: var(--secondary-Very-light-grey);
+}
+
+.banner--primary {
+    width: 1110px;
+    height: 500px;
+    flex-shrink: 0;
+    max-width: 100%;
+    margin-top: 32px;
+
+    background: url(../../assets/portfolio/bookmark/image-bookmark-hero.jpg) center / cover no-repeat;
+}
+
+.banner__text {
+    position: relative;
+    left: 0;
+    top: 245px;
+    width: 445px;
+    height: 357px;
+    background: var(--secondary-Very-light-grey);
+}
+
+.banner__text--paragrafo{
+    width: 390px;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Ibarra Real Nova";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 100% */
+    padding: 16px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.buton__sobre {
+    width: 200px;
+    height: 48px;
+    cursor: pointer;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 39px;
+    background-color: var(--primary-darck-blue);
+}
+
+.buton__sobre p {
+    color: var(--secondary-Very-light-grey);
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.buton__sobre--img {
+    width: 16px;
+    height: 16px;
+}

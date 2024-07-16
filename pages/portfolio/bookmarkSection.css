@@ -1,0 +1,73 @@
+.baner__bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    gap: 140px;
+    background-color: var(--secondary-Very-light-grey);
+    margin-top: 80px;
+}
+
+.banner--bookmark {
+    width: 432px;
+    height:500px;
+    max-width: 100%;
+    background: url(../../assets/portfolio/bookmark/image-portfolio-bookmark.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.baner__bookmark--description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid var(--primary-Grayish-dark-blue);
+    border-bottom: 1px solid var(--primary-Grayish-dark-blue);
+    
+    height: 500px;
+    padding: 100px 0; 
+}
+
+.baner__bookmark--title {
+    width: 430px;
+    padding-bottom: 16px;
+    color: var(--primary-Grayish-dark-blue);
+
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 105% */
+    letter-spacing: -0.357px;
+}
+
+.baner__secondary--paragrafo {
+    width: 430px;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Public Sans";
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 42px;
+}
+
+.baner__secondary--buton {
+    width: 204px;
+    height: 48px;
+    border: 1px solid var(--primary-Grayish-dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-Grayish-dark-blue);
+    font-family: "Public Sans";
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.barra {
+    width: 430px;
+    height: 1px;
+    opacity: 0.15;
+    background: var(--primary-Grayish-dark-blue); 
+}
+
